@@ -1,81 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+<!DOCTYPE html>
+<!-- Website template by casus -->
+<head>
+	<title>Shaiya MMORGP</title>
+	<meta  charset="utf-8">
+	<link href="css/style.css" tppabs="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<a id="logo" href="index.html" tppabs="index.html"><img src="images/logo.png" tppabs="http://shaiyagunes.esy.es/images/logo.png" alt=""></a>
+			<ul class="navigation">
+				
+                <li class="first">
+				  <a class="active" href="index.html" tppabs="index.html">Ana Sayfa</a>
+				</li>
+				<li>
+				  <a href="kayit.html" tppabs="kayit.html">KAYIT OL</a>
+				</li>
+				<li>
+				  <a href="bagis.html" tppabs="bagis.html">BAĞIŞ</a>
+				</li>
+				<li>
+				  <a href="forum/index.htm" tppabs="forum/index.html">FORUM</a>
+				</li>
+	<li>
+				  <a href="indir.html" tppabs="indir.html">İNDİR</a>
+				</li>
+                	<li>
+				  <a href="siralama.html" tppabs="siralama.html">Sıralama</a>
+				</li>
+           
+        
+				
+			</ul>
+		</div>
+	  <div id="body">
+			<div class="featured"> <img src="images/featured-character.jpg" tppabs="images/featured-character.jpg" alt="">
+			
+			  <div class="section">
+			    <h2><a href="index.html" tppabs="index.html">Duyuru Panosu</a></h2>
+			    <p>
+						Shaiya Türkiye Yakında Online Şuan Ufak Hatalar Baglar Düzeltiyor Orjinal Bir Oyundur. FP Alarak İtemmal Ve Webmall'dan Harcama Yapabilirsiniz.
+			    </p>
+				  <p>
+					  Oyunumuzda Bağış Yapanlara Kesinlikle Ayrıcalık Tanınmayacaktır Ayrıcalık İçin Yapacaksanız Kesinlikle Yapmayınız !!
+                      
+				</p>
+			  <a class="readmore" href="index.html" tppabs="index.html">&nbsp;</a> </div>
+			  
+	    <span>&nbsp;</span> </div>
+		  <div id="content">
+				<p>
+					<font color="yellow">Türkçe :</font> Merhaba Arkadaşlar Oyunumuz Tüm Ülkeye Açıktır. Lakin Oyun Türkçe Olucaktır Nede Olsa Shaiya Türkiye.
+					<h1></h1>
+					<font color="yellow">English :</font> <font color="red">Hello Our Friends Game is open to all countries . But the game is Turkish olucam Net Olsen Shaiya Turkey.
+		    </p>
+					
+				</p>
+	    </div>
+			<div id="sidebar"> <a class="readmore" href="archives.html" tppabs="http://shaiyagunes.esy.es/archives.html">&nbsp;</a>
+				<ul class="connect">
+					<li>
+						Bizi Takip Edin
+					</li>
+					<li>
+						<a class="twitter" href="http://www.fb.com/shaiyatr1" tppabs="www.fb.com/shaiyatr1">&nbsp;</a>
+					</li>
+					<li>
+						<a class="facebook" href="http://www.fb.com/shaiyatr1" tppabs="http://www.fb.com/shaiyatr1">&nbsp;</a>
+					</li>
+					<li>
+						<a class="googleplus" href="http://www.fb.com/shaiyatr1" tppabs="http://www.fb.com/shaiyatr1">&nbsp;</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			<div class="wrapper marg_top2">
+				<article class="col1">
+					<div class="box2">
+						<div class="pad">
+							<h2><center>İletişim</center></h2>
+							<div class="wrapper pad_bot1">
+								<a><figure><img width="55" height="50" src="images/tel.png" alt="" class="left marg_right1"></figure></a>
+								<span class="color1">Sesli İletişim</span><br>
+								Telefon Numaramızı Arayınız. (Görüşelim)<a href="#"></a>
+							</div>
+							<div class="wrapper pad_bot1">
+								<a><figure><img width="55" height="50"  src="images/ticket.png" alt="" class="left marg_right1"></figure></a>
+								<span class="color1">Ticket</span><br>
+								Oyunda Vip , Premium , Ban , İtiraz İçin Ticket <a href="#"></a>
+							</div>
+							<div class="wrapper pad_bot1">
+								<a><figure><img width="55" height="50"  src="images/sponsor.png" alt="" class="left marg_right1"></figure></a>
+								<span class="color1">Sponsorluk</span><br>
+								Sponsor Olarak Birbirimize Sahip Çıkmaya Ne Dersin ?<a href="#"></a>
+							</div>
+						</div>
+					</div>
+					
+					
 
-:root {
-    --color-terminal: #292b36;
-    --borde-redondo: 4px;
-}
-
-* {
-    font-family: 'Source Code Pro', monospace;
-}
-
-body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #5c4b7a;
-    color: white;
-}
-
-input, button {
-    border: none;
-    outline: none;
-}
-
-main {
-    padding: 25px;
-    box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
-    border-radius: var(--borde-redondo);
-}
-
-h1 {
-    margin: 0;
-}
-
-#input-original, #resultado {
-    background-color: var(--color-terminal);
-    width: -webkit-fill-available;
-}
-
-#input-original {
-    margin: 10px 0 0;
-    padding: 10px;
-    color: white;
-    border-top-left-radius: var(--borde-redondo);
-    border-top-right-radius: var(--borde-redondo);
-}
-
-#resultado {
-    height: 20px;
-    color: #5af78d;
-    padding: 0 10px 10px;
-    border-bottom-left-radius: var(--borde-redondo);
-    border-bottom-right-radius: var(--borde-redondo);
-}
-
-.rango {
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: 1fr 30px;
-    text-align: center;
-    align-items: center;
-}
-
-input[type='range'] {
-    -webkit-appearance: none;
-    border-radius: var(--borde-redondo);
-    background:var(--color-terminal);
-    margin: 0;
-    padding: 0 5px;
-    height: 20px;
-}
-
-input[type='range']::-webkit-slider-thumb {
-    cursor: pointer;
-    -webkit-appearance: none;
-    background:white;
-    border-radius: 50%;
-    height:10px;
-    width:10px;
-}
+</body>
+</html>
